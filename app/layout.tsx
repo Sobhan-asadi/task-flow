@@ -1,3 +1,4 @@
+import Navbar from "@/components/layout/navbar/navbar";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Vazirmatn } from "next/font/google";
 import "./globals.css";
@@ -32,7 +33,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${vazirmatn.variable} h-full antialiased`}
     >
-      <body className="">{children}</body>
+      <body className="">
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
