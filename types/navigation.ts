@@ -1,5 +1,5 @@
 export type NavLink = {
-  title: "Features" | "Solutions" | "Pricing" | "FAQ" | "Blog";
+  title: "features" | "solutions" | "pricing" | "faq" | "blog";
   href: string;
 };
 

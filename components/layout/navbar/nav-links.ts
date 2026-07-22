@@ -1,9 +1,9 @@
 import { NavLinks } from "@/types/navigation";
 
 export const navigationItems: NavLinks = [
-  { title: "Features", href: "/features" },
-  { title: "Solutions", href: "/solutions" },
-  { title: "Pricing", href: "/pricing" },
-  { title: "FAQ", href: "/faq" },
-  { title: "Blog", href: "/blog" },
+  { title: "features", href: "/features" },
+  { title: "solutions", href: "/solutions" },
+  { title: "pricing", href: "/pricing" },
+  { title: "faq", href: "/faq" },
+  { title: "blog", href: "/blog" },
 ];

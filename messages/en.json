@@ -1,0 +1,11 @@
+{
+  "navbar": {
+    "login": "Login",
+    "getStarted": "Get Started",
+    "features": "Features",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "blog": "Blog"
+  }
+}
